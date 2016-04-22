@@ -1,8 +1,16 @@
 header{
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 5px solid gray;
 }
+
+body{
+  margin: 0 26%;
+}
+
 p{
   text-indent: 40px;
 }
@@ -23,7 +31,32 @@ p{
   float: left;
 }
 
+#print{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+#printicon{
+  height: 10px;
+}
+
+#abovepic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#date{
+  margin-top: 0px;
+}
+
+#print{
+}
+
+h1{
+  margin-bottom: 0px;
+}
 
 header h2{
   margin-top: 0px;
@@ -33,4 +66,5 @@ header h2{
 header h6{
   margin-top: 0px;
   margin-bottom: 0px;
+  color: gray;
 }
