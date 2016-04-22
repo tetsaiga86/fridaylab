@@ -1,3 +1,36 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 p{
-  text-indent: 20px;
+  text-indent: 40px;
+}
+
+.icons{
+  float: right;
+}
+
+.cursive{
+  font-family: 'Lobster', cursive;
+}
+
+#topleft{
+  width: 300px;
+}
+
+#logo{
+  float: left;
+}
+
+
+
+header h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header h6{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
