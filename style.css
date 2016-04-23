@@ -51,9 +51,6 @@ p{
   margin-top: 0px;
 }
 
-#print{
-}
-
 h1{
   margin-bottom: 0px;
 }
@@ -67,4 +64,51 @@ header h6{
   margin-top: 0px;
   margin-bottom: 0px;
   color: gray;
+}
+
+table{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(img/list-bg.png);
+  border-bottom: 2px solid gray;
+}
+
+#bottomopage{
+  margin-top: 15px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-top: 5px solid gray;
+}
+
+#author img{
+  float: left;
+  margin-right: 10px;
+}
+
+#author p{
+  text-indent: 0px;
+  margin: 0px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button{
+  background-color: red;
+}
+
+footer img{
+  width: 31px;
+  height: 33px;
+  margin: 15px auto;
+}
+
+footer h6{
+  margin: 0px auto;
 }
